@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2008-3-13 15:29:52 by Hibernate Tools 3.2.0.b9 -->
+<hibernate-mapping>
+	<class name="com.trans.model.User" table="tb_user">
+		<id name="id" type="int">
+			<generator class="native" />
+		</id>
+		<property name="username" column="username"/>
+		<property name="password" column="password"/>
+		
+		
+	</class>
+</hibernate-mapping>
